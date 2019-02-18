@@ -4,4 +4,11 @@
   'base/reset.scss';
 
 @import
-  'ui/header.scss';
+  'layout/header.scss';
+
+
+@import
+  'ui/card.scss';
+
+@import
+  'views/board.scss';

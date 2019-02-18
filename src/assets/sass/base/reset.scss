@@ -10,6 +10,8 @@
   TODO with the prefix, should I group by selector or property for weight savings?
 */
 html{
+  width: 100%;
+  height: 100%;
   color: #2b323f;
   background:#e9ecf3;
   box-sizing: border-box;
@@ -19,6 +21,12 @@ html{
     box-sizing: inherit;
   }
 }
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
 /*
   TODO remove settings on BODY since we can't namespace it.
 */

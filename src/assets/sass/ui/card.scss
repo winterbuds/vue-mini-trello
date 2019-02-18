@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+.card {
+  width: 288px;
+  border-radius: 4px;
+  background: #eaeaea;
+
+  &-header {
+    padding: 7px 14px;
+    font-weight: bold;
+    color: #737373;
+
+    &__icon-setting {
+      float: right;
+      cursor: pointer;
+    }
+  }
+
+  &-footer {
+    padding: 7px 10px;
+    cursor: pointer;
+
+    &:hover {
+      background: #d4d4d4;
+    }
+
+  }
+}
